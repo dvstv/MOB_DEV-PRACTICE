@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/card_margin"
+    android:background="@drawable/bg_card"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/tvItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:textColor="@color/primary"
+        android:textSize="@dimen/text_card_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvItemTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@id/tvItemPrice"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/text_card_title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvItemSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvItemTitle"
+        android:textColor="@color/text_secondary"
+        android:textSize="@dimen/text_body" />
+
+    <TextView
+        android:id="@+id/tvItemSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvItemSession"
+        android:layout_toStartOf="@id/btnRemove"
+        android:textColor="@color/text_main"
+        android:textSize="@dimen/text_body" />
+
+    <Button
+        android:id="@+id/btnRemove"
+        style="@style/Button.Session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/tvItemSession"
+        android:text="@string/btn_remove" />
+</RelativeLayout>

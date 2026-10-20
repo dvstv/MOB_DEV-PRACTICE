@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Кинотеатр</string>
+
+    <!-- Экран выбора сеанса -->
+    <string name="movies_title">Афиша</string>
+    <string name="movies_subtitle">Выберите фильм и время сеанса</string>
+    <string name="btn_cart">Корзина (%1$d)</string>
+    <string name="price_per_ticket">%1$d ₸</string>
+    <string name="movie_info">%1$s · %2$s</string>
+
+    <!-- Экран выбора мест -->
+    <string name="seats_title">Выбор мест</string>
+    <string name="seats_session_info">Сеанс в %1$s · зал %2$d</string>
+    <string name="screen_label">ЭКРАН</string>
+    <string name="legend_free">Свободно</string>
+    <string name="legend_taken">Занято</string>
+    <string name="legend_selected">Выбрано</string>
+    <string name="seats_summary">Мест: %1$d · Итого: %2$d ₸</string>
+    <string name="btn_add_to_cart">В корзину</string>
+    <string name="row_label">%1$d</string>
+    <string name="toast_no_seats">Выберите хотя бы одно место</string>
+    <string name="toast_seat_taken">Это место уже занято</string>
+
+    <!-- Корзина -->
+    <string name="cart_title">Корзина</string>
+    <string name="cart_added">Добавлено: %1$s</string>
+    <string name="cart_empty">В корзине пока нет билетов</string>
+    <string name="cart_item_session">Сеанс в %1$s · зал %2$d</string>
+    <string name="cart_item_seats">Места: %1$s</string>
+    <string name="cart_item_price">%1$d ₸</string>
+    <string name="cart_total">Итого: %1$d ₸</string>
+    <string name="btn_remove">Удалить</string>
+    <string name="btn_add_more">Добавить ещё сеанс</string>
+    <string name="btn_checkout">Оформить заказ</string>
+    <string name="toast_checkout_done">Заказ оформлен! Хорошего просмотра</string>
+    <string name="toast_cart_empty">Сначала добавьте билеты</string>
+</resources>

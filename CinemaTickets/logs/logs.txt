@@ -1,0 +1,47 @@
+--------- beginning of main
+10-20 20:48:25.932  2568  2568 D MoviesActivity: onCreate
+10-20 20:48:31.671  2568  2568 D MoviesActivity: onStart
+10-20 20:48:32.092  2568  2568 D MoviesActivity: onResume
+10-20 20:49:22.829  2568  2568 I MoviesActivity: Выбран сеанс: Горбатая гора, 18:00, зал 3
+10-20 20:49:24.105  2568  2568 D MoviesActivity: onPause
+10-20 20:49:24.818  2568  2568 D SeatsActivity: onCreate
+10-20 20:49:25.267  2568  2568 D SeatsActivity: Получены данные: Горбатая гора, 18:00, зал 3, цена 2500
+10-20 20:49:25.349  2568  2568 D SeatsActivity: Занято мест: 11
+10-20 20:49:25.791  2568  2568 D SeatsActivity: onStart
+10-20 20:49:25.803  2568  2568 D SeatsActivity: onResume
+10-20 20:49:33.537  2568  2568 D MoviesActivity: onStop
+10-20 20:49:37.594  2568  2568 I SeatsActivity: Место 4-5 выбрано
+10-20 20:49:39.245  2568  2568 I SeatsActivity: Место 4-4 выбрано
+10-20 20:49:40.126  2568  2568 I SeatsActivity: Место 4-3 выбрано
+10-20 20:49:41.672  2568  2568 I SeatsActivity: В корзину добавлено: Горбатая гора, 18:00, места [4-3, 4-4, 4-5]
+10-20 20:49:42.191  2568  2568 D SeatsActivity: onPause
+10-20 20:49:42.493  2568  2568 D CartActivity: onCreate
+10-20 20:49:42.950  2568  2568 D CartActivity: Получены данные: Горбатая гора, 18:00 (3 шт.)
+10-20 20:49:43.032  2568  2568 D CartActivity: В корзине позиций: 1, сумма 7500
+10-20 20:49:43.042  2568  2568 D CartActivity: onStart
+10-20 20:49:43.044  2568  2568 D CartActivity: onResume
+10-20 20:50:00.709  2568  2568 D SeatsActivity: onStop
+10-20 20:50:00.726  2568  2568 D SeatsActivity: onDestroy
+10-20 20:50:02.361  2568  2568 I CartActivity: Заказ оформлен, билетов: 3, сумма 7500
+10-20 20:50:03.706  2568  2568 D CartActivity: onPause
+10-20 20:50:03.723  2568  2568 D MoviesActivity: onDestroy
+10-20 20:50:04.227  2568  2568 D MoviesActivity: onCreate
+10-20 20:50:04.703  2568  2568 D MoviesActivity: onStart
+10-20 20:50:04.707  2568  2568 D MoviesActivity: onResume
+10-20 20:50:47.950  2568  2568 D CartActivity: onStop
+10-20 20:50:47.972  2568  2568 D CartActivity: onDestroy
+10-20 20:51:20.204  2568  2568 I MoviesActivity: Нажата кнопка корзины, билетов: 0
+10-20 20:51:23.746  2568  2568 D MoviesActivity: onPause
+10-20 20:51:25.964  2568  2568 D CartActivity: onCreate
+10-20 20:51:26.254  2568  2568 D CartActivity: В корзине позиций: 0, сумма 0
+10-20 20:51:26.264  2568  2568 D CartActivity: onStart
+10-20 20:51:26.275  2568  2568 D CartActivity: onResume
+10-20 20:51:39.015  2568  2568 I MoviesActivity: Нажата кнопка корзины, билетов: 0
+10-20 20:51:40.756  2568  2568 D CartActivity: onPause
+10-20 20:51:43.133  2568  2568 D CartActivity: onCreate
+10-20 20:51:43.483  2568  2568 D CartActivity: В корзине позиций: 0, сумма 0
+10-20 20:51:43.501  2568  2568 D CartActivity: onStart
+10-20 20:51:43.510  2568  2568 D CartActivity: onResume
+10-20 20:51:57.332  2568  2568 W CartActivity: Попытка оформить пустую корзину
+10-20 20:52:02.639  2568  2568 D MoviesActivity: onStop
+10-20 20:52:13.830  2568  2568 D CartActivity: onStop
