@@ -16,12 +16,5 @@
 | targetSdk / compileSdk | 35 (Android 15) |
 | Язык | Kotlin 2.0.21 |
 
-## Логи
-Теги: `MoviesActivity`, `SeatsActivity`, `CartActivity`.
-Сохранить журнал: `adb logcat -d -s MoviesActivity SeatsActivity CartActivity > logs/logs.txt`
-
-## Снимки экранов
-(добавить после запуска на эмуляторе)
-
 ## APK
 (ссылка на Releases)
